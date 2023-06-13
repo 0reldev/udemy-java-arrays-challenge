@@ -19,7 +19,7 @@ public class Main {
             reversedArray[i] = sortedArray[sortedArray.length - i - 1];
         }
         System.out.println("Array's sorting. New array:\n" + Arrays.toString(reversedArray) + "\n");
-        return sortedArray;
+        return reversedArray;
     }
 
     public static int[] generateRandomIntArray(int size) {
